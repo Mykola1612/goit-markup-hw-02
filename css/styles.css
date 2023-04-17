@@ -1,0 +1,107 @@
+:root {
+  --primary-text-color: #434455;
+  --pitel-text-color: #2e2f42;
+  --hero-text-color: #ffffff;
+  --buton-text-color: #4d5ae5;
+  --Pressed-state-color: #404bbf;
+}
+body {
+  background-color: #ffffff;
+  color: var(--primary-text-color);
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+/* index.html */
+
+/* header */
+/* nav */
+/* logo */
+.logo {
+  font-family: "Raleway", sans-serif;
+  color: var(--pitel-text-color);
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.span-logo {
+  color: var(--buton-text-color);
+  font-family: "Raleway", sans-serif;
+}
+/* site-list-navigation */
+.site-nav {
+  list-style: none;
+}
+.navigation-link {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: var(--pitel-text-color);
+}
+.navigation-link.current {
+  color: var(--Pressed-state-color);
+}
+/* address */
+.address-list {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  list-style: none;
+}
+.address-link {
+  text-decoration: none;
+  color: var(--primary-text-color);
+}
+/* Main */
+.hero {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 60px;
+  letter-spacing: 0.02em;
+  color: var(--pitel-text-color);
+}
+.button {
+  color: var(--hero-text-color);
+  background-color: var(--buton-text-color);
+  cursor: pointer;
+}
+/* section company */
+.company-hero {
+  color: rgba(0, 0, 0, 0);
+  margin: 0;
+  padding: 0;
+}
+.company-list {
+  list-style: none;
+}
+.titel-company {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: var(--pitel-text-color);
+  margin: 0;
+  padding: 0;
+}
+.text-company {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+/* portfolio.html */ ;
