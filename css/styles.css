@@ -8,8 +8,8 @@
 body {
   background-color: #ffffff;
   color: var(--primary-text-color);
-  font-family: "Raleway", sans-serif;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 /* index.html */
@@ -18,7 +18,7 @@ body {
 /* nav */
 /* logo */
 .logo {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   color: var(--pitel-text-color);
   text-decoration: none;
   font-style: normal;
@@ -32,7 +32,7 @@ body {
 }
 .span-logo {
   color: var(--buton-text-color);
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 /* site-list-navigation */
 .site-nav {
@@ -97,6 +97,46 @@ body {
   padding: 0;
 }
 .text-company {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+/* section-action */
+.action-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  color: var(--pitel-text-color);
+}
+.action-list {
+  list-style: none;
+}
+/* Teams */
+.teams-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  color: var(--pitel-text-color);
+}
+.teams-list {
+  list-style: none;
+}
+.teams-list-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: var(--pitel-text-color);
+}
+.teams-text {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
