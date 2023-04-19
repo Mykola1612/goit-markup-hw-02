@@ -12,26 +12,28 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-/* index.html */
+/* index.html, portfolio.html */
+.link {
+  text-decoration: none;
+}
 
 /* header */
 /* nav */
 /* logo */
 .logo {
   font-family: 'Raleway', sans-serif;
-  color: var(--pitel-text-color);
-  text-decoration: none;
+  color: #4d5ae5;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 21px;
+  line-height: 1.17;
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .span-logo {
-  color: var(--buton-text-color);
+  color: #2e2f42;
   font-family: 'Raleway', sans-serif;
 }
 /* site-list-navigation */
@@ -39,13 +41,16 @@ body {
   list-style: none;
 }
 .navigation-link {
-  text-decoration: none;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--pitel-text-color);
+  color: #2e2f42;
+}
+.navigation-link:hover,
+:focus {
+  color: #404bbf;
 }
 .navigation-link.current {
   color: var(--Pressed-state-color);
@@ -55,7 +60,7 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   list-style: none;
 }
@@ -64,25 +69,40 @@ body {
   color: var(--primary-text-color);
 }
 /* Main */
+.section-hero {
+  background-color: #2e2f42;
+}
 .hero {
   font-style: normal;
   font-weight: 700;
   font-size: 56px;
-  line-height: 60px;
+  line-height: 1.07;
+  text-align: center;
   letter-spacing: 0.02em;
-  color: var(--pitel-text-color);
+  color: var(--hero-text-color);
 }
-.button {
+.buttons {
   color: var(--hero-text-color);
   background-color: var(--buton-text-color);
   cursor: pointer;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
 }
+.buttons:hover {
+  background-color: var(--Pressed-state-color);
+}
+.buttons:focus {
+  background-color: #404bbf;
+}
+
 /* section company */
-.company-hero {
-  color: rgba(0, 0, 0, 0);
-  margin: 0;
-  padding: 0;
-}
 .company-list {
   list-style: none;
 }
@@ -90,11 +110,12 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   color: var(--pitel-text-color);
   margin: 0;
   padding: 0;
+  text-transform: capitalize;
 }
 .text-company {
   font-style: normal;
