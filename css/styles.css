@@ -56,6 +56,9 @@ body {
   color: var(--Pressed-state-color);
 }
 /* address */
+.address {
+  font-style: normal;
+}
 .address-list {
   font-style: normal;
   font-weight: 400;
@@ -67,6 +70,12 @@ body {
 .address-link {
   text-decoration: none;
   color: var(--primary-text-color);
+}
+.address-link:hover {
+  color: #404bbf;
+}
+.address-link:focus {
+  color: #404bbf;
 }
 /* Main */
 .section-hero {
@@ -82,10 +91,10 @@ body {
   color: var(--hero-text-color);
 }
 .buttons {
+  font-family: 'Roboto' sans-serif;
   color: var(--hero-text-color);
   background-color: var(--buton-text-color);
   cursor: pointer;
-  font-family: 'Roboto' sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -239,6 +248,9 @@ body {
   color: #ffffff;
 }
 /* gallery */
+.span-logo-footer {
+  color: #f4f4fd;
+}
 .portfolio-main-title {
   font-style: normal;
   font-weight: 500;
