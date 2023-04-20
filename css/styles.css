@@ -214,6 +214,9 @@ body {
 
 /* portfolio.html */
 /* buttons portfolio */
+.gallery-section {
+  background-color: #ffffff;
+}
 .buttons-list {
   background-color: #f4f4fd;
   color: #4d5ae5;
