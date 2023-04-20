@@ -69,7 +69,7 @@ body {
 }
 .address-link {
   text-decoration: none;
-  color: #2e2f42;
+  color: #434455;
 }
 .address-link:hover {
   color: #404bbf;
@@ -91,7 +91,7 @@ body {
   color: var(--hero-text-color);
 }
 .buttons {
-  font-family: 'Roboto' sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: var(--hero-text-color);
   background-color: var(--buton-text-color);
   cursor: pointer;
